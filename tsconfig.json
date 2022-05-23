@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+		"module": "CommonJS",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+		"esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Debugging */
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "watch": true,
+    /* Modules */
+    "baseUrl": "src"
+  },
+	 "exclude": ["node_modules"]
+}

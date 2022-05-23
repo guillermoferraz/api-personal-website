@@ -8,8 +8,7 @@ async function startServer() {
     console.log(`
    +------------------------------+
   /	SERVER ON PORT ${config.port}      /
- +------------------------------+
-		`);
+ +------------------------------+`);
   });
 }
 startServer();

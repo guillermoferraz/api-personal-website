@@ -20,6 +20,6 @@ export default ({ app }: { app: express.Application }) => {
   app.use(morgan("dev"));
 
   app.use(express.json());
-  app.use(express.urlencoded({ extended: false }));
+  app.use(express.urlencoded({ extended: true }));
   console.log("✅ Express: OK");
 };

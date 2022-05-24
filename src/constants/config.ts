@@ -15,4 +15,13 @@ export default {
   api: {
     prefix: "/api",
   },
+  smtp: {
+    host: process.env.SMTP_HOST as string,
+    service: process.env.SMTP_SERVICE as string,
+    port: process.env.SMTP_PORT,
+    secure: process.env.SMPT_SECURE as string,
+    authType: process.env.SMPT_AUTH_TYPE as string,
+    user: process.env.SMTP_USER as string,
+    pass: process.env.SMTP_PASS as string,
+  },
 };

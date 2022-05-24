@@ -8,6 +8,7 @@ interface AutoResponseContactTypes {
   email: string;
   message: string;
   company?: string;
+  lng: string;
 }
 
 export default class MailersServices {
@@ -29,7 +30,7 @@ export default class MailersServices {
         to: `${data.email}`,
         subject: "Guillermo Ferraz Web Response",
         text: "Respuesta test automatizada",
-        html: templateResponseContact(),
+        html: templateResponseContact(data),
       });
       console.log(`
                   +----------------+

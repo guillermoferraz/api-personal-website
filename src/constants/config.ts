@@ -23,5 +23,8 @@ export default {
     authType: process.env.SMPT_AUTH_TYPE as string,
     user: process.env.SMTP_USER as string,
     pass: process.env.SMTP_PASS as string,
+    subject: process.env.SMTP_SUBJECT as string,
+    personalEmail: process.env.SMTP_PERSONAL_EMAIL as string,
+    personalSubject: process.env.SMTP_PERSONAL_SUBJECT as string,
   },
 };
